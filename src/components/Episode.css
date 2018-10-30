@@ -8,23 +8,6 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
-.episode .screen {
-  min-height: 30rem;
-  background-color: #282923;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.episode .screen .title {
-  color: #fff;
-  font-size: 4rem;
-  font-weight: bold;
-}
-.episode .screen .intro {
-  color: #f92372;
-  font-size: 2rem;
-}
 .episode .audio {
   background-color: #000;
 }

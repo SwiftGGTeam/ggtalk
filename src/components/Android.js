@@ -7,7 +7,7 @@ import BtnBar from './BtnBar'
 class Android extends Component {
   render() {
     return (
-      <Container fluid className='about'>
+      <Container fluid className='android'>
         <Row>
           <NavBar />
         </Row>
@@ -26,13 +26,13 @@ class Android extends Component {
             <br /><br />
             安卓平台的第三方电台类应用不少，但是目前似乎还没有出现一个公认的最强者，每个都有好有坏。我整理了一下比较出名的应用，大家可以自行搜索使用：
             <br />
-            · Pocket Casts
+            &nbsp;· Pocket Casts
             <br />
-            · PlayerFM
+            &nbsp;· PlayerFM
             <br />
-            · CastBox
+            &nbsp;· CastBox
             <br />
-            · Audvel
+            &nbsp;· Audvel
             <br />
             <br />
             一般来说，这类电台应用都可以通过 RSS 地址来订阅电台，我们的 RSS 地址是：<a target='_blank' rel="noopener noreferrer" href='https://talk.swift.gg/static/rss.xml'>https://talk.swift.gg/static/rss.xml</a>，你可以自行复制订阅。

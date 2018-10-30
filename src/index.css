@@ -12,3 +12,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  word-break: break-all;
+}
+
+.screen {
+  height: 30rem;
+  background-color: #282923;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 350px) {
+  .screen {
+    height: 15rem;
+  }
+}
+.screen .title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  .screen .title {
+    font-size: 2.5rem!important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .screen .title {
+    font-size: 2rem!important;
+  }
+}
+.screen .intro {
+  color: #f92372;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .screen .intro {
+    font-size: 1.5rem!important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .screen .intro {
+    font-size: 1rem!important;
+  }
+}
