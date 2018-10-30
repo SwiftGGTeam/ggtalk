@@ -1,0 +1,31 @@
+.android {
+  width: 100%;
+}
+.android .center {
+  margin: 0 auto;
+}
+.android .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.android .screen {
+  min-height: 30rem;
+  background-color: #282923;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.android .screen .title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.android .screen .intro {
+  color: #f92372;
+  font-size: 2rem;
+}
+.android .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}

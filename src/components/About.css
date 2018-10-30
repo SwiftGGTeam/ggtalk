@@ -1,0 +1,31 @@
+.about {
+  width: 100%;
+}
+.about .center {
+  margin: 0 auto;
+}
+.about .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.about .screen {
+  min-height: 30rem;
+  background-color: #282923;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about .screen .title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.about .screen .intro {
+  color: #74705b;
+  font-size: 1.2rem;
+}
+.about .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}

@@ -1,0 +1,9 @@
+.btns {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.btns a + a {
+  margin-left: 10px;
+}

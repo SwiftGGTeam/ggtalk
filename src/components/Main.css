@@ -1,0 +1,51 @@
+.main {
+  width: 100%;
+}
+.main .center {
+  margin: 0 auto;
+}
+.main .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.main .screen {
+  min-height: 30rem;
+  background-color: #282923;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .screen .title {
+  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+}
+.main .screen .intro {
+  color: #f92372;
+  font-size: 3rem;
+}
+.main .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}
+.main .episodes {
+  padding: 1rem;
+}
+.main .episodes .episode {
+  padding: 1rem 0;
+}
+.main .episodes .episode .title {
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 1px rgba(51,122,183,0.2);
+  color: #7eaf22;
+}
+.main .episodes .episode .title:hover {
+  color: #a3e22c;
+}
+.main .episodes .episode .intro {
+  color: #74705b;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
