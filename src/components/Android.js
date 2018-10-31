@@ -38,6 +38,9 @@ class Android extends Component {
             一般来说，这类电台应用都可以通过 RSS 地址来订阅电台，我们的 RSS 地址是：<a target='_blank' rel="noopener noreferrer" href='https://talk.swift.gg/static/rss.xml'>https://talk.swift.gg/static/rss.xml</a>，你可以自行复制订阅。
             <br />
             <br />
+            如果你不太清楚如何设置，或者不想使用第三方应用，也可以直接在我们的网页中播放。在节目列表中点击标题，打开的详情页里有播放按钮。
+            <br />
+            <br />
             我自己很少使用安卓，很难对这些应用进行比较。大家在使用过程中如果发现好用的应用请告诉我，我会更新到这里。
           </Col>
         </Row>
