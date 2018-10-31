@@ -55,8 +55,8 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
 • 星星的微博：@星夜暮晨（https://www.weibo.com/moonisky）
 • 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
             </description>
-            <enclosure url="https://talk.swift.gg/audio/1.mp3" length="109921514" type="audio/mpeg" />
-            <guid>https://talk.swift.gg/audio/1.mp3</guid>
+            <enclosure url="https://talkcdn.swift.gg/audio/1.mp3" length="109921514" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/1.mp3</guid>
             <itunes:duration>57:15</itunes:duration>
             <itunes:summary>
 第一期电台节目，我们选了一个比较有话题性，或者说比较有噱头的主题：程序员的升职加薪。
