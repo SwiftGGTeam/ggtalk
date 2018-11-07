@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 28 Oct 2018 22:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Nov 2018 23:00:00</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -71,6 +71,43 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,升职,加薪</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>我都花时间搭博客了，为什么还要花时间写？</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 06 Nov 2018 23:00:00 CDT</pubDate>
+            <description>
+每个女孩都有一个公主梦，每个程序员也都有一个博客梦（什么烂比喻！）。用 CSS 把自己的网站布局得漂漂亮亮，加上 Google Analytics 代码，等待着访问量暴涨的那一天。
+
+本期请到的嘉宾是 iOS 界的“灯塔”（为什么叫灯塔？请听本台独家揭秘），刚刚毕业一年的 Draveness。Draveness 的个人博客年 PV 已经超过百万，发布了大量高质量的技术文章。
+
+Draveness 的博客经历了什么发展过程？如何坚持写博客？如何制作美观的博客插图？本期节目，和 Draveness 一起聊聊写博客这点事儿。
+
+参考链接：
+• Draveness 的博客：https://draveness.me/
+• Draveness 的微博：@Draveness（https://www.weibo.com/u/5123574960）
+• Draveness 的 GitHub：https://github.com/Draveness
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/2.mp3" length="91284713" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/2.mp3</guid>
+            <itunes:duration>47:32</itunes:duration>
+            <itunes:summary>
+每个女孩都有一个公主梦，每个程序员也都有一个博客梦（什么烂比喻！）。用 CSS 把自己的网站布局得漂漂亮亮，加上 Google Analytics 代码，等待着访问量暴涨的那一天。
+
+本期请到的嘉宾是 iOS 界的“灯塔”（为什么叫灯塔？请听本台独家揭秘），刚刚毕业一年的 Draveness。Draveness 的个人博客年 PV 已经超过百万，发布了大量高质量的技术文章。
+
+Draveness 的博客经历了什么发展过程？如何坚持写博客？如何制作美观的博客插图？本期节目，和 Draveness 一起聊聊写博客这点事儿。
+
+参考链接：
+• Draveness 的博客：https://draveness.me/
+• Draveness 的微博：@Draveness（https://www.weibo.com/u/5123574960）
+• Draveness 的 GitHub：https://github.com/Draveness
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swiftgg,搭建博客,写博客,Draveness,灯塔</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
