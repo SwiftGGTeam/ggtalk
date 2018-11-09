@@ -56,7 +56,7 @@ class Main extends Component {
             <div className='subtitle'>
               节目列表
             </div>
-            {episodes.reverse().map((episode, i) => {
+            {episodes.map((episode, i) => {
               return (
                 <Row className='episode' key={i}>
                   <Col>
@@ -70,7 +70,7 @@ class Main extends Component {
                   </Col>
                 </Row>
               )
-            })}
+            }).reverse()}
           </Col>
         </Row>
       </Container>
