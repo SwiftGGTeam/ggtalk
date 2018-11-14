@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 13 Nov 2018 11:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Nov 2018 15:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -134,6 +134,51 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
             <enclosure url="https://talkcdn.swift.gg/audio/3.mp3" length="123336332" type="audio/mpeg" />
             <guid>https://talkcdn.swift.gg/audio/3.mp3</guid>
             <itunes:duration>01:04:14</itunes:duration>
+            <itunes:summary>
+关于技术大会的讨论已经够多了，有人喜欢，有人讨厌。不过这都不是本期重点，这次我们想换个角度，走进后台，看看到底如何办一场技术大会。
+
+本期的嘉宾是周裕波，w3ctech 的发起人，在过去的 9 年中组织了多场技术大会和技术分享，其中绝大多数都是非营利活动。
+
+我自己也是一个大会组织者，组织过三届 Swift 大会，目前来看反响还都不错。我和裕波是通过大会认识，我开始组织大会也是受裕波影响，可以说这期节目也完成了我的一个愿望，和我的大会启蒙导师聊聊办大会的酸甜苦辣。
+
+对大会的幕后故事感兴趣？想自己尝试组织活动？别犹豫，点击播放。
+
+参考链接：
+• w3ctech：https://w3ctech.com/
+• 裕波的微博：@裕波（https://weibo.com/itchina100）
+• 11 月 24 日，第二届 Vue.js 开发者大会：https://vue.w3ctech.com/?home
+• 第一届 @Swift 大会资源：https://github.com/atConf/atswift-2016-resources
+• @Swift 大会微博：@Swift开发者大会：https://weibo.com/atswift
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swiftgg,技术大会,裕波,swift大会</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>和裕波聊聊如何办一场技术大会（下）</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Wed, 14 Nov 2018 15:00:00 CDT</pubDate>
+            <description>
+关于技术大会的讨论已经够多了，有人喜欢，有人讨厌。不过这都不是本期重点，这次我们想换个角度，走进后台，看看到底如何办一场技术大会。
+
+本期的嘉宾是周裕波，w3ctech 的发起人，在过去的 9 年中组织了多场技术大会和技术分享，其中绝大多数都是非营利活动。
+
+我自己也是一个大会组织者，组织过三届 Swift 大会，目前来看反响还都不错。我和裕波是通过大会认识，我开始组织大会也是受裕波影响，可以说这期节目也完成了我的一个愿望，和我的大会启蒙导师聊聊办大会的酸甜苦辣。
+
+对大会的幕后故事感兴趣？想自己尝试组织活动？别犹豫，点击播放。
+
+参考链接：
+• w3ctech：https://w3ctech.com/
+• 裕波的微博：@裕波（https://weibo.com/itchina100）
+• 11 月 24 日，第二届 Vue.js 开发者大会：https://vue.w3ctech.com/?home
+• 第一届 @Swift 大会资源：https://github.com/atConf/atswift-2016-resources
+• @Swift 大会微博：@Swift开发者大会：https://weibo.com/atswift
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/4.mp3" length="71436667" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/4.mp3</guid>
+            <itunes:duration>37:12</itunes:duration>
             <itunes:summary>
 关于技术大会的讨论已经够多了，有人喜欢，有人讨厌。不过这都不是本期重点，这次我们想换个角度，走进后台，看看到底如何办一场技术大会。
 
