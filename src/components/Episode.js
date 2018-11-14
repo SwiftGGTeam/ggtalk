@@ -13,6 +13,10 @@ var episodes = rssContent.rss.channel.item
 if (!Array.isArray(episodes)) episodes = [episodes]
 
 class Episode extends Component {
+  componentDidMount () {
+    document.title = 'ggtalk | ' + episodes[this.props.match.params.id].title._text
+  }
+
   formatDate = (date) => {
     var d = new Date(date),
       month = '' + (d.getMonth() + 1),
