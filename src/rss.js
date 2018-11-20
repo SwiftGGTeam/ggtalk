@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 14 Nov 2018 15:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Nov 2018 08:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -198,6 +198,45 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swiftgg,技术大会,裕波,swift大会</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>聊聊程序员的升职加薪（下）</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 20 Nov 2018 08:00:00 CDT</pubDate>
+            <description>
+是你期待已久的（下）期！
+
+作为 ggtalk 节目的第一个主题，只聊一期当然是不够的。在（上）中，翻译组的星星和 mm 分享了自己的转岗和升职经验。作为亲身经历的人，聊了很多有趣有价值的内容。
+
+这一期中，我们请到了翻译组两位叔辈的大佬，莲叔和羊叔。作为技术团队的 leader，从另一个角度聊聊他们眼中的升职加薪，结合上一期，形成一个完整全面的认识。
+
+说的够多了，听！（海哭的声音……）
+
+参考链接：
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/5.mp3" length="45288304" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/5.mp3</guid>
+            <itunes:duration>47:10</itunes:duration>
+            <itunes:summary>
+是你期待已久的（下）期！
+
+作为 ggtalk 节目的第一个主题，只聊一期当然是不够的。在（上）中，翻译组的星星和 mm 分享了自己的转岗和升职经验。作为亲身经历的人，聊了很多有趣有价值的内容。
+
+这一期中，我们请到了翻译组两位叔辈的大佬，莲叔和羊叔。作为技术团队的 leader，从另一个角度聊聊他们眼中的升职加薪，结合上一期，形成一个完整全面的认识。
+
+说的够多了，听！（海哭的声音……）
+
+参考链接：
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,升职,加薪</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
