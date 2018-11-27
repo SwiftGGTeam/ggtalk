@@ -240,7 +240,7 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
           <itunes:explicit>no</itunes:explicit>
         </item>
         <item>
-            <title>Swift 诞生这四年（上）</title>
+            <title>聊聊 Swift 这四年（上）</title>
             <link>https://talk.swift.gg</link>
             <pubDate>Tue, 27 Nov 2018 09:00:00 CDT</pubDate>
             <description>
