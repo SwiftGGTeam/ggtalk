@@ -266,6 +266,7 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
 • Objective-C Block 用法说明网页：http://t.cn/z8iOhFs
 • 喵神的微博：@onevcat（https://www.weibo.com/onevcat）
 • 喵神的博客：https://onevcat.com/
+• 王雷的邮箱：r4ynum1@gmail.com
 • 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
 • 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
 • 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
@@ -313,6 +314,7 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
 • Objective-C Block 用法说明网页：http://t.cn/z8iOhFs
 • 喵神的微博：@onevcat（https://www.weibo.com/onevcat）
 • 喵神的博客：https://onevcat.com/
+• 王雷的邮箱：r4ynum1@gmail.com
 • 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
 • 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
 • 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
