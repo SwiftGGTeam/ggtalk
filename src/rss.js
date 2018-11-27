@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 20 Nov 2018 08:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Nov 2018 09:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -232,11 +232,110 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
 
 参考链接：
 • 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
-• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
 • 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,升职,加薪</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Swift 诞生这四年（上）</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 27 Nov 2018 09:00:00 CDT</pubDate>
+            <description>
+从 2014 年到现在，Swift 发布已经超过四年。从 Swift 文档翻译开始，我们翻译组也一路参与 Swift 的发展过程，做了很多有意思的事。Swift 5 预计会在 2019 发布，届时 ABI 将会稳定，开发者一直盼望的黎明即将到来。黎明前夕，我们想回忆一下过去，说说这四年发生过什么。
+
+这期节目我们请到了老朋友莲叔和星星，还在青总的帮助下请到了 Enjoy 团队的王雷，四个人站在四个不同的角度，聊聊我们的回忆和思考。
+
+如果你一直在关注 Swift，可以和我们一起来回忆过去；如果你是新入行或者新转行的 iOS 开发者，那本期节目可以让你更加深入的了解 Swift。总之，听就对了。
+
+哦对了，如果你觉得这期节目有价值，别忘了分享给你的朋友。
+
+参考链接：
+• 垃圾桶里的 OC 教程：https://img.25pp.com/uploadfile/news/2014/0604/20140604031716756_380x480.jpg
+• 《The Swift Programming Language》中文版项目地址：https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese
+• Swift 中文文档正式发布的那条微博：https://weibo.com/5174822990/B8CqZ7ox0?refer_flag=1001030103_
+• 苹果官方 Swift 首页：https://swift.org/
+• Enjoy App：https://itunes.apple.com/cn/app/enjoy-%E7%B2%BE%E9%80%89%E7%BE%8E%E9%A3%9F%E7%94%B5%E5%95%86/id943837902?mt=8
+• SwiftGG 翻译组官网：https://swift.gg/
+• SwiftGG 翻译组微博：@SwiftGG翻译组（https://www.weibo.com/swiftguide）
+• Swift 官方开源项目地址：https://github.com/apple/swift
+• 星星给 Swift 提交的 Pull Request：https://github.com/apple/swift/pull/770
+• IBM Swift Sandbox 在 2018 年 1 月已经关闭，官方解释说要专注在 Swift 服务端开发
+• Objective-C Block 用法说明网页：http://t.cn/z8iOhFs
+• 喵神的微博：@onevcat（https://www.weibo.com/onevcat）
+• 喵神的博客：https://onevcat.com/
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 02:00  个人介绍
+• 03:16  主题介绍
+• 06:37  Swift 发布当天的回忆
+• 13:00  Swift 官方文档翻译
+• 19:23  Enjoy 的技术选型，为何决定使用 Swift
+• 21:22  Swift Playground 介绍
+• 27:54  各种 Swift 论坛和公司内部培训
+• 33:00  Enjoy Swift 踩坑
+• 38:13  Swift 8MB 包体积问题，不同版本编译的 framework 不通用问题
+• 40:56  2014 年大家的补充内容
+• 42:50  2015 年 Enjoy 的 Swift 使用体验
+• 45:35  SwiftGG 翻译成立！
+• 48:04  Swift 开源的介绍和解析，神秘嘉宾喵神出场！
+• 54:26  星星给 Swift 项目提交的 PR 被合并
+• 57:58  2015 年大家的补充内容
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/6.mp3" length="62420451" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/6.mp3</guid>
+            <itunes:duration>01:05:01</itunes:duration>
+            <itunes:summary>
+从 2014 年到现在，Swift 发布已经超过四年。从 Swift 文档翻译开始，我们翻译组也一路参与 Swift 的发展过程，做了很多有意思的事。Swift 5 预计会在 2019 发布，届时 ABI 将会稳定，开发者一直盼望的黎明即将到来。黎明前夕，我们想回忆一下过去，说说这四年发生过什么。
+
+这期节目我们请到了老朋友莲叔和星星，还在青总的帮助下请到了 Enjoy 团队的王雷，四个人站在四个不同的角度，聊聊我们的回忆和思考。
+
+如果你一直在关注 Swift，可以和我们一起来回忆过去；如果你是新入行或者新转行的 iOS 开发者，那本期节目可以让你更加深入的了解 Swift。总之，听就对了。
+
+哦对了，如果你觉得这期节目有价值，别忘了分享给你的朋友。
+
+参考链接：
+• 垃圾桶里的 OC 教程：https://img.25pp.com/uploadfile/news/2014/0604/20140604031716756_380x480.jpg
+• 《The Swift Programming Language》中文版项目地址：https://github.com/SwiftGGTeam/the-swift-programming-language-in-chinese
+• Swift 中文文档正式发布的那条微博：https://weibo.com/5174822990/B8CqZ7ox0?refer_flag=1001030103_
+• 苹果官方 Swift 首页：https://swift.org/
+• Enjoy App：https://itunes.apple.com/cn/app/enjoy-%E7%B2%BE%E9%80%89%E7%BE%8E%E9%A3%9F%E7%94%B5%E5%95%86/id943837902?mt=8
+• SwiftGG 翻译组官网：https://swift.gg/
+• SwiftGG 翻译组微博：@SwiftGG翻译组（https://www.weibo.com/swiftguide）
+• Swift 官方开源项目地址：https://github.com/apple/swift
+• 星星给 Swift 提交的 Pull Request：https://github.com/apple/swift/pull/770
+• IBM Swift Sandbox 在 2018 年 1 月已经关闭，官方解释说要专注在 Swift 服务端开发
+• Objective-C Block 用法说明网页：http://t.cn/z8iOhFs
+• 喵神的微博：@onevcat（https://www.weibo.com/onevcat）
+• 喵神的博客：https://onevcat.com/
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 02:00  个人介绍
+• 03:16  主题介绍
+• 06:37  Swift 发布当天的回忆
+• 13:00  Swift 官方文档翻译
+• 19:23  Enjoy 的技术选型，为何决定使用 Swift
+• 21:22  Swift Playground 介绍
+• 27:54  各种 Swift 论坛和公司内部培训
+• 33:00  Enjoy Swift 踩坑
+• 38:13  Swift 8MB 包体积问题，不同版本编译的 framework 不通用问题
+• 40:56  2014 年大家的补充内容
+• 42:50  2015 年 Enjoy 的 Swift 使用体验
+• 45:35  SwiftGG 翻译成立！
+• 48:04  Swift 开源的介绍和解析，神秘嘉宾喵神出场！
+• 54:26  星星给 Swift 项目提交的 PR 被合并
+• 57:58  2015 年大家的补充内容
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
