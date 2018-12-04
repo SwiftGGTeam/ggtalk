@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 27 Nov 2018 09:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Dec 2018 08:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -335,6 +335,89 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
 • 48:04  Swift 开源的介绍和解析，神秘嘉宾喵神出场！
 • 54:26  星星给 Swift 项目提交的 PR 被合并
 • 57:58  2015 年大家的补充内容
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>聊聊 Swift 这四年（下）</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 04 Dec 2018 08:00:00 CDT</pubDate>
+            <description>
+从 2014 年到现在，Swift 发布已经超过四年。从 Swift 文档翻译开始，我们翻译组也一路参与 Swift 的发展过程，做了很多有意思的事。Swift 5 预计会在 2019 发布，届时 ABI 将会稳定，开发者一直盼望的黎明即将到来。黎明前夕，我们想回忆一下过去，说说这四年发生过什么。
+
+这期节目我们请到了老朋友莲叔和星星，还在青总的帮助下请到了 Enjoy 团队的王雷，四个人站在四个不同的角度，聊聊我们的回忆和思考。（本期还有一段彩蛋，来自喵神的 Swift 开源解读！）
+
+如果你一直在关注 Swift，可以和我们一起来回忆过去；如果你是新入行或者新转行的 iOS 开发者，那本期节目可以让你更加深入的了解 Swift。总之，听就对了。
+
+哦对了，如果你觉得这期节目有价值，别忘了分享给你的朋友。
+
+参考链接：
+• iOS 循环表情图：http://ww1.sinaimg.cn/large/0065hPzhgy1fdfv4njndtj30u00pmtar.jpg
+• 腾讯 OCS 现存的文章：http://www.10tiao.com/html/330/201612/2653578416/1.html
+• DynamicCocoa 的 issue 列表：https://github.com/DynamicCocoa/DynamicCocoa/issues
+• bang 对于 JSPatch 苹果警告的回应：https://blog.cnbang.net/internet/3374/
+• Swift 项目官方地址：https://github.com/apple/swift-evolution
+• SwiftGG 翻译组官网：https://swift.gg/
+• SwiftGG 翻译组微博：@SwiftGG翻译组（https://www.weibo.com/swiftguide）
+• 王雷的邮箱：r4ynum1@gmail.com（想去 Enjoy 工作可以直接发送简历）
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:24  Swift 3.0
+• 02:36  Swift ABI 稳定的讨论
+• 08:00  第一届 @Swift 开发者大会
+• 09:00  2016 年的 iOS 培训热潮
+• 17:24  混编方案的介绍
+• 23:00  Swift 4.0
+• 24:30  第二届 @Swift 开发者大会
+• 25:40  小程序和跨平台
+• 32:00  影响深远的 JSPatch 事件
+• 39:40  Swift 5
+• 42:38  第三届 @Swift 开发者大会
+• 47:00  回顾和总结
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/7.mp3" length="51791749" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/7.mp3</guid>
+            <itunes:duration>53:57</itunes:duration>
+            <itunes:summary>
+从 2014 年到现在，Swift 发布已经超过四年。从 Swift 文档翻译开始，我们翻译组也一路参与 Swift 的发展过程，做了很多有意思的事。Swift 5 预计会在 2019 发布，届时 ABI 将会稳定，开发者一直盼望的黎明即将到来。黎明前夕，我们想回忆一下过去，说说这四年发生过什么。
+
+这期节目我们请到了老朋友莲叔和星星，还在青总的帮助下请到了 Enjoy 团队的王雷，四个人站在四个不同的角度，聊聊我们的回忆和思考。（本期还有一段彩蛋，来自喵神的 Swift 开源解读！）
+
+如果你一直在关注 Swift，可以和我们一起来回忆过去；如果你是新入行或者新转行的 iOS 开发者，那本期节目可以让你更加深入的了解 Swift。总之，听就对了。
+
+哦对了，如果你觉得这期节目有价值，别忘了分享给你的朋友。
+
+参考链接：
+• iOS 循环表情图：http://ww1.sinaimg.cn/large/0065hPzhgy1fdfv4njndtj30u00pmtar.jpg
+• 腾讯 OCS 现存的文章：http://www.10tiao.com/html/330/201612/2653578416/1.html
+• DynamicCocoa 的 issue 列表：https://github.com/DynamicCocoa/DynamicCocoa/issues
+• bang 对于 JSPatch 苹果警告的回应：https://blog.cnbang.net/internet/3374/
+• Swift 项目官方地址：https://github.com/apple/swift-evolution
+• SwiftGG 翻译组官网：https://swift.gg/
+• SwiftGG 翻译组微博：@SwiftGG翻译组（https://www.weibo.com/swiftguide）
+• 王雷的邮箱：r4ynum1@gmail.com（想去 Enjoy 工作可以直接发送简历）
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:24  Swift 3.0
+• 02:36  Swift ABI 稳定的讨论
+• 08:00  第一届 @Swift 开发者大会
+• 09:00  2016 年的 iOS 培训热潮
+• 17:24  混编方案的介绍
+• 23:00  Swift 4.0
+• 24:30  第二届 @Swift 开发者大会
+• 25:40  小程序和跨平台
+• 32:00  影响深远的 JSPatch 事件
+• 39:40  Swift 5
+• 42:38  第三届 @Swift 开发者大会
+• 47:00  回顾和总结
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术</itunes:keywords>
