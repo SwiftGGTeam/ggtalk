@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 04 Dec 2018 08:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Dec 2018 08:30:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -421,6 +421,95 @@ Draveness 的博客经历了什么发展过程？如何坚持写博客？如何�
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>要不要买 HHKB？我问了七位用户，听听他们怎么说</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 11 Dec 2018 08:30:00 CDT</pubDate>
+            <description>
+首先这期真不是广告，也没人赞助我们，如果 HHKB 官方想赞助请速与我联系……
+
+本期来详细的聊聊“程序员的最后一把键盘”——HHKB。目前翻译组里很多人都有 HHKB，有些人甚至有不止一把，使用时间从三个月到六年都有。于是我就想做这么一期节目，好好说说 HHKB。
+
+HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买最便宜？每个考虑过 HHKB 的程序员都会有这些疑问。我们的目的不是找到标准答案，实际上也不存在标准答案。我们想做的就是尽可能多的展示不同的观点，让你能从不同的角度去了解 HHKB，最终能做出自己的决定。
+
+如果你觉得本期的内容有帮助，可以分享给你的程序员朋友们。如果你也想分享自己的 HHKB 使用体验，也欢迎给我发邮件：lj925184928@gmail.com。
+
+内容勘误：
+• Cee 的录音中有提到“HHKB 还在使用传统的 Micro USB 接口”，准确的说是“Mini USB”接口
+
+参考链接：
+• 对 HHKB 设计者和田英一的采访：https://www.massdrop.com/article/eiiti-wada-interview
+• Dvorak 键盘布局：https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard
+• CMB 提到的键盘胶圈：https://www.v2ex.com/t/108909
+• Cee 提到的 Karabiner：https://pqrs.org/osx/karabiner/
+• Cee 的键盘照片：https://imgur.com/a/37XetDi
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 蓉老师的微博：@saitjr（https://weibo.com/u/1918545437）
+• 小青的博客：https://blog.dianqk.org
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:29  个人介绍
+• 02:23  HHKB 历史和设计过程
+• 10:18  莲叔的 HHKB 故事
+• 23:06  蓉老师的 HHKB 故事
+• 28:47  Dvorak 布局介绍
+• 34:37  小青的 HHKB 故事
+• 44:12  聊聊为什么 HHKB 这么神
+• 49:44  总结为什么要买 HHKB
+• 50:50  总结 HHKB 有什么缺点
+• 54:40  讨论日本代购
+• 57:03  CMB 的 HHKB 故事
+• 58:37  冬瓜的 HHKB 故事
+• 01:01:35  思琦的 HHKB 故事
+• 01:04:46  Cee 的 HHKB 故事
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/8.mp3" length="66747583" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/8.mp3</guid>
+            <itunes:duration>01:09:31</itunes:duration>
+            <itunes:summary>
+首先这期真不是广告，也没人赞助我们，如果 HHKB 官方想赞助请速与我联系……
+
+本期来详细的聊聊“程序员的最后一把键盘”——HHKB。目前翻译组里很多人都有 HHKB，有些人甚至有不止一把，使用时间从三个月到六年都有。于是我就想做这么一期节目，好好说说 HHKB。
+
+HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买最便宜？每个考虑过 HHKB 的程序员都会有这些疑问。我们的目的不是找到标准答案，实际上也不存在标准答案。我们想做的就是尽可能多的展示不同的观点，让你能从不同的角度去了解 HHKB，最终能做出自己的决定。
+
+如果你觉得本期的内容有帮助，可以分享给你的程序员朋友们。如果你也想分享自己的 HHKB 使用体验，也欢迎给我发邮件：lj925184928@gmail.com。
+
+内容勘误：
+• Cee 的录音中有提到“HHKB 还在使用传统的 Micro USB 接口”，准确的说是“Mini USB”接口
+
+参考链接：
+• 对 HHKB 设计者和田英一的采访：https://www.massdrop.com/article/eiiti-wada-interview
+• Dvorak 键盘布局：https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard
+• CMB 提到的键盘胶圈：https://www.v2ex.com/t/108909
+• Cee 提到的 Karabiner：https://pqrs.org/osx/karabiner/
+• Cee 的键盘照片：https://imgur.com/a/37XetDi
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 蓉老师的微博：@saitjr（https://weibo.com/u/1918545437）
+• 小青的博客：https://blog.dianqk.org
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:29  个人介绍
+• 02:23  HHKB 历史和设计过程
+• 10:18  莲叔的 HHKB 故事
+• 23:06  蓉老师的 HHKB 故事
+• 28:47  Dvorak 布局介绍
+• 34:37  小青的 HHKB 故事
+• 44:12  聊聊为什么 HHKB 这么神
+• 49:44  总结为什么要买 HHKB
+• 50:50  总结 HHKB 有什么缺点
+• 54:40  讨论日本代购
+• 57:03  CMB 的 HHKB 故事
+• 58:37  冬瓜的 HHKB 故事
+• 01:01:35  思琦的 HHKB 故事
+• 01:04:46  Cee 的 HHKB 故事
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,HHKB,机械键盘</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
