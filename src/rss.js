@@ -17,7 +17,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 11 Dec 2018 08:30:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Dec 2018 06:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -510,6 +510,99 @@ HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,HHKB,机械键盘</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>和 Cee 聊聊如何拿 Google Offer</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 18 Dec 2018 06:00:00 CDT</pubDate>
+            <description>
+翻译组里真是人才辈出啊，前几天 Cee 在群里说了个好消息，他拿到了美国 Google 的 Offer。群友们纷纷表示祝贺并进行了隆重的认哥仪式，将 SwiftGG 诞生以来第一个 GG（哥哥） 称号颁发给我们公认的大哥 Cee。
+
+我也在第一时间联系 Cee，邀请他来电台详细说说这个过程，让更多人能了解 Google 的面试流程，也给大家分享一些 Cee 的准备技巧和面试经验。
+
+废话不多说，开始听节目吧！
+
+参考链接：
+• SwiftGG 群内认哥现场：https://imgur.com/a/KWVcR0J
+• 一个 Latex 简历模板：https://github.com/sb2nov/resume
+• Cee 的 LeetCode 开源项目地址：https://github.com/Cee/Leetcode
+• 《Google foo.bar 面试记》：http://xiaohanyu.me/posts/2017-04-30-google-foobar-interview/
+• Cee 的留学过程《写在申请季之后》：https://blog.cee.moe/After-Applying-For-Graduate-School.html
+• 一亩三分地论坛：https://www.1point3acres.com/bbs/
+• Cee 提到的普林斯顿算法书《Algorithms》：https://algs4.cs.princeton.edu/home/
+• LeetCode 算法刷题平台：https://leetcode.com/
+• Cee 的微博：https://www.weibo.com/acgcee
+• Cee 的 GitHub: https://github.com/Cee
+• Cee 的联系方式：https://t.me/ceeee
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 00:34  个人介绍
+• 01:45  邀请 Cee 的原因
+• 03:09  Google 面试的流程
+• 10:24  应聘的是什么职位
+• 12:45  Google 的食堂好吃吗
+• 13:13  大公司看重的是什么能力？如何准备？
+• 15:29  如何找到合适的职位
+• 17:33  如何写好简历
+• 20:53  如何内推
+• 23:38  如何复习算法
+• 30:51  关于美国工签的讨论
+• 32:43  之后的职业规划是什么
+• 34:33  Cee 的留学经历
+• 38:08  Cee 在渡鸦的工作体验
+• 38:49  申请留学的具体流程
+• 44:26  出国留学的感受
+• 48:09  暑假在 Tumblr 的实习经历
+• 53:02  其他的出国工作渠道
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/9.mp3" length="57260745" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/9.mp3</guid>
+            <itunes:duration>59:39</itunes:duration>
+            <itunes:summary>
+翻译组里真是人才辈出啊，前几天 Cee 在群里说了个好消息，他拿到了美国 Google 的 Offer。群友们纷纷表示祝贺并进行了隆重的认哥仪式，将 SwiftGG 诞生以来第一个 GG（哥哥） 称号颁发给我们公认的大哥 Cee。
+
+我也在第一时间联系 Cee，邀请他来电台详细说说这个过程，让更多人能了解 Google 的面试流程，也给大家分享一些 Cee 的准备技巧和面试经验。
+
+废话不多说，开始听节目吧！
+
+参考链接：
+• SwiftGG 群内认哥现场：https://imgur.com/a/KWVcR0J
+• 一个 Latex 简历模板：https://github.com/sb2nov/resume
+• Cee 的 LeetCode 开源项目地址：https://github.com/Cee/Leetcode
+• 《Google foo.bar 面试记》：http://xiaohanyu.me/posts/2017-04-30-google-foobar-interview/
+• Cee 的留学过程《写在申请季之后》：https://blog.cee.moe/After-Applying-For-Graduate-School.html
+• 一亩三分地论坛：https://www.1point3acres.com/bbs/
+• Cee 提到的普林斯顿算法书《Algorithms》：https://algs4.cs.princeton.edu/home/
+• LeetCode 算法刷题平台：https://leetcode.com/
+• Cee 的微博：https://www.weibo.com/acgcee
+• Cee 的 GitHub: https://github.com/Cee
+• Cee 的联系方式：https://t.me/ceeee
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 00:34  个人介绍
+• 01:45  邀请 Cee 的原因
+• 03:09  Google 面试的流程
+• 10:24  应聘的是什么职位
+• 12:45  Google 的食堂好吃吗
+• 13:13  大公司看重的是什么能力？如何准备？
+• 15:29  如何找到合适的职位
+• 17:33  如何写好简历
+• 20:53  如何内推
+• 23:38  如何复习算法
+• 30:51  关于美国工签的讨论
+• 32:43  之后的职业规划是什么
+• 34:33  Cee 的留学经历
+• 38:08  Cee 在渡鸦的工作体验
+• 38:49  申请留学的具体流程
+• 44:26  出国留学的感受
+• 48:09  暑假在 Tumblr 的实习经历
+• 53:02  其他的出国工作渠道
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,简历,面试,Google面试,Google,美国读研</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
