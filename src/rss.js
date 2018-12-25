@@ -1,4 +1,5 @@
-export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+export default `
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ggtalk</title>
         <link>https://swift.gg</link>
@@ -17,7 +18,7 @@ export default `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" v
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 18 Dec 2018 06:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Dec 2018 07:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -603,6 +604,85 @@ HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,技术,简历,面试,Google面试,Google,美国读研</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>创业那点事：听莲叔和羊叔回忆峥嵘岁月</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 25 Dec 2018 07:00:00 CDT</pubDate>
+            <description>
+莲叔和羊叔是 SwiftGG 翻译组的真·大佬。成绩好，学历高，思维缜密，能力很强。听过《升职加薪》那期节目的朋友应该都有印象。作为标准的技术人才，在创业大潮中自然也想试试身手，打拼一番。
+
+直博休学，放弃大厂的稳定工作，签下第一份百万美金投资协议，App 霸占苹果免费榜第一名长达一周，招人烧钱……作为技术合伙人和 CTO，莲叔和羊叔在四五年的创业过程中经历过高峰，也遇到过低谷，有无奈，但更多的还是收获和感激。
+
+兜兜转转一大圈，莲叔和羊叔还是回到了阿里和腾讯，稳定下来做技术 leader。现在再来回顾，他们有什么感想？有什么思考？一起来听吧。
+
+参考链接：
+• 莲叔提到的几个网站和产品：Gilt，Zulily，唯品会，尾品汇，腾讯广点通
+• 羊叔提到的游戏：部落冲突（COC，Clash of Clans），海岛奇兵（Boom Beach）
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:27  嘉宾自我介绍
+• 02:56  莲叔的创业故事
+• 10:52  莲叔详细讲因为创业休学
+• 11:57  服装特卖模式介绍
+• 13:08  莲叔创业拿多少工资
+• 14:31  创业过程中难忘的事
+• 17:35  羊叔的创业故事
+• 28:08  为什么公司要上线十几款 App
+• 30:08  聊聊对丁香园的印象
+• 32:28  讨论跨界和跨领域创业
+• 35:58  创业是不是靠命好
+• 37:24  游戏策划这个职位具体要做什么？
+• 38:46  在你们离开之后，公司是否还在继续发展？
+• 39:14  讨论最近蘑菇街期权的事
+• 45:21  反思为什么失败，有什么收获
+• 49:45  什么样的创业公司靠谱
+• 54:09  对正在创业的人有什么话想说
+• 55:34  节目最后还有什么话想说
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/10.mp3" length="54597509" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/10.mp3</guid>
+            <itunes:duration>56:52</itunes:duration>
+            <itunes:summary>
+莲叔和羊叔是 SwiftGG 翻译组的真·大佬。成绩好，学历高，思维缜密，能力很强。听过《升职加薪》那期节目的朋友应该都有印象。作为标准的技术人才，在创业大潮中自然也想试试身手，打拼一番。
+
+直博休学，放弃大厂的稳定工作，签下第一份百万美金投资协议，App 霸占苹果免费榜第一名长达一周，招人烧钱……作为技术合伙人和 CTO，莲叔和羊叔在四五年的创业过程中经历过高峰，也遇到过低谷，有无奈，但更多的还是收获和感激。
+
+兜兜转转一大圈，莲叔和羊叔还是回到了阿里和腾讯，稳定下来做技术 leader。现在再来回顾，他们有什么感想？有什么思考？一起来听吧。
+
+参考链接：
+• 莲叔提到的几个网站和产品：Gilt，Zulily，唯品会，尾品汇，腾讯广点通
+• 羊叔提到的游戏：部落冲突（COC，Clash of Clans），海岛奇兵（Boom Beach）
+• 莲叔的微博：@aaaron7_ （https://weibo.com/aaaron7）
+• 羊叔的微博：@shanksyang（https://weibo.com/shanksyang0）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 01:27  嘉宾自我介绍
+• 02:56  莲叔的创业故事
+• 10:52  莲叔详细讲因为创业休学
+• 11:57  服装特卖模式介绍
+• 13:08  莲叔创业拿多少工资
+• 14:31  创业过程中难忘的事
+• 17:35  羊叔的创业故事
+• 28:08  为什么公司要上线十几款 App
+• 30:08  聊聊对丁香园的印象
+• 32:28  讨论跨界和跨领域创业
+• 35:58  创业是不是靠命好
+• 37:24  游戏策划这个职位具体要做什么？
+• 38:46  在你们离开之后，公司是否还在继续发展？
+• 39:14  讨论最近蘑菇街期权的事
+• 45:21  反思为什么失败，有什么收获
+• 49:45  什么样的创业公司靠谱
+• 54:09  对正在创业的人有什么话想说
+• 55:34  节目最后还有什么话想说
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,创业,创业故事</itunes:keywords>
           <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
