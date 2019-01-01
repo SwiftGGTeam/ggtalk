@@ -18,7 +18,7 @@ export default `
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 25 Dec 2018 07:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 1 Jan 2018 15:00:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -680,6 +680,57 @@ HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买
 • 49:45  什么样的创业公司靠谱
 • 54:09  对正在创业的人有什么话想说
 • 55:34  节目最后还有什么话想说
+            </itunes:summary>
+            <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
+            <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,创业,创业故事</itunes:keywords>
+          <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>创业那点事：普通开发者的回忆、反思和迷茫</title>
+            <link>https://talk.swift.gg</link>
+            <pubDate>Tue, 1 Jan 2018 15:00:00 CDT</pubDate>
+            <description>
+本期是创业系列第二期。第一期请莲叔和羊叔回顾了一下峥嵘岁月，第二期我们换个角度，由 mm、珂珂和我来说说作为一个普通的开发者，在创业浪潮中经历了什么。
+
+本期可能没有太多真知灼见，这里只有三个普通人，尝试去整理和理解自己的经历，有回忆，有收获，有反思，更多的还是迷茫。就像莲叔上期说的一样，创业成功才是偶然，我们这三段失败的创业经历，只是无数必然中的一个浪花，没什么特别，但或许也能透过它，感受到一丝那个时代的气息，这样也就够了。
+
+参考链接：
+• 翻译组公众号：learnSwift
+• mm 的微博：@画渣程序猿mmoaay（https://www.weibo.com/smmoaay）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 00:51  嘉宾自我介绍
+• 02:11  mm 的创业故事
+• 10:38  珂珂的创业故事
+• 21:06  梁杰的创业故事
+• 38:03  当时为什么要去创业？
+• 44:27  学到了什么东西？有什么收获？
+• 58:23  对于正在创业的人想说什么？
+• 01:00:00  节目最后有什么话想说？
+            </description>
+            <enclosure url="https://talkcdn.swift.gg/audio/11.mp3" length="60674218" type="audio/mpeg" />
+            <guid>https://talkcdn.swift.gg/audio/11.mp3</guid>
+            <itunes:duration>01:03:12</itunes:duration>
+            <itunes:summary>
+本期是创业系列第二期。第一期请莲叔和羊叔回顾了一下峥嵘岁月，第二期我们换个角度，由 mm、珂珂和我来说说作为一个普通的开发者，在创业浪潮中经历了什么。
+
+本期可能没有太多真知灼见，这里只有三个普通人，尝试去整理和理解自己的经历，有回忆，有收获，有反思，更多的还是迷茫。就像莲叔上期说的一样，创业成功才是偶然，我们这三段失败的创业经历，只是无数必然中的一个浪花，没什么特别，但或许也能透过它，感受到一丝那个时代的气息，这样也就够了。
+
+参考链接：
+• 翻译组公众号：learnSwift
+• mm 的微博：@画渣程序猿mmoaay（https://www.weibo.com/smmoaay）
+• 梁杰的微博：@梁杰_numbbbbb（https://www.weibo.com/numbbbbb）
+
+时间线：
+• 00:51  嘉宾自我介绍
+• 02:11  mm 的创业故事
+• 10:38  珂珂的创业故事
+• 21:06  梁杰的创业故事
+• 38:03  当时为什么要去创业？
+• 44:27  学到了什么东西？有什么收获？
+• 58:23  对于正在创业的人想说什么？
+• 01:00:00  节目最后有什么话想说？
             </itunes:summary>
             <itunes:image href="https://talk.swift.gg/static/logo.jpg"/>
             <itunes:keywords>程序员,开发,开发者,swift,swiftgg,翻译组,创业,创业故事</itunes:keywords>
