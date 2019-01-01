@@ -18,7 +18,7 @@ export default `
         <language>zh-cn</language>
         <copyright>Swift.GG copyright 2018</copyright>
         <atom:link href="https://talk.swift.gg/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 1 Jan 2018 15:00:00 CDT</lastBuildDate>
+        <lastBuildDate>Tue, 1 Jan 2019 15:20:00 CDT</lastBuildDate>
         <itunes:author>梁杰</itunes:author>
         <itunes:summary>
 接地气、有价值的闲聊节目。一帮程序员，在无尽的接需求写代码改 bug 加班上线循环中开辟出来的一块空地，想想过去，聊聊现在，偶尔也展望一下未来。
@@ -688,7 +688,7 @@ HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买
         <item>
             <title>创业那点事：普通开发者的回忆、反思和迷茫</title>
             <link>https://talk.swift.gg</link>
-            <pubDate>Tue, 1 Jan 2018 15:00:00 CDT</pubDate>
+            <pubDate>Tue, 1 Jan 2019 15:20:00 CDT</pubDate>
             <description>
 本期是创业系列第二期。第一期请莲叔和羊叔回顾了一下峥嵘岁月，第二期我们换个角度，由 mm、珂珂和我来说说作为一个普通的开发者，在创业浪潮中经历了什么。
 
