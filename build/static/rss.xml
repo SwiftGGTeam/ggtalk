@@ -1,4 +1,3 @@
-export default `
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ggtalk</title>
@@ -738,4 +737,3 @@ HHKB 有啥好处？有啥缺点？不同版本到底如何选择？从哪里买
         </item>
     </channel>
 </rss>
-`

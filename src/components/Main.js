@@ -4,14 +4,28 @@ import NavBar from './NavBar'
 import { Container, Row, Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import BtnBar from './BtnBar'
-import rss from '../rss.js'
-
-const xml = require('xml-js')
-const rssContent = xml.xml2js(rss, {compact: true})
-var episodes = rssContent.rss.channel.item
-if (!Array.isArray(episodes)) episodes = [episodes]
 
 class Main extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      episodes: []
+    }
+  }
+
+  componentDidMount() {
+    const xml = require('xml-js')
+    var episodes = []
+
+    fetch('/static/rss.xml').then((data) => data.text()).then((text) => {
+      const rssContent = xml.xml2js(text, {compact: true})
+      episodes = rssContent.rss.channel.item
+      if (!Array.isArray(episodes)) episodes = [episodes]
+      this.setState({episodes})
+    })
+  }
+
   formatDate = (date) => {
     var d = new Date(date),
       month = '' + (d.getMonth() + 1),
@@ -56,7 +70,7 @@ class Main extends Component {
             <div className='subtitle'>
               节目列表
             </div>
-            {episodes.map((episode, i) => {
+            {this.state.episodes.map((episode, i) => {
               return (
                 <Row className='episode' key={i}>
                   <Col>
@@ -78,4 +92,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Main

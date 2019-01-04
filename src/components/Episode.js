@@ -4,17 +4,28 @@ import NavBar from './NavBar'
 import { Container, Row, Col } from 'reactstrap'
 import MediaElement from './MediaElement'
 import BtnBar from './BtnBar'
-import rss from '../rss.js'
 var Autolinker = require( 'autolinker' )
 
-const xml = require('xml-js')
-const rssContent = xml.xml2js(rss, {compact: true})
-var episodes = rssContent.rss.channel.item
-if (!Array.isArray(episodes)) episodes = [episodes]
-
 class Episode extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      episodes: []
+    }
+  }
+
   componentDidMount () {
-    document.title = 'ggtalk | ' + episodes[this.props.match.params.id].title._text
+    const xml = require('xml-js')
+    var episodes = []
+
+    fetch('/static/rss.xml').then((data) => data.text()).then((text) => {
+      const rssContent = xml.xml2js(text, {compact: true})
+      episodes = rssContent.rss.channel.item
+      if (!Array.isArray(episodes)) episodes = [episodes]
+      this.setState({episodes})
+      document.title = 'ggtalk | ' + episodes[this.props.match.params.id].title._text
+    })
   }
 
   formatDate = (date) => {
@@ -30,8 +41,12 @@ class Episode extends Component {
   }
 
   render() {
+    if (this.state.episodes.length === 0) {
+      return null
+    }
+
     let i = this.props.match.params.id
-    let episode = episodes[i]
+    let episode = this.state.episodes[i]
 
     return (
       <div className='episode'>
