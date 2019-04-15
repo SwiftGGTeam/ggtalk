@@ -8,6 +8,7 @@ import {
 import Main from './components/Main'
 import Episode from './components/Episode'
 import About from './components/About'
+import FAQ from './components/FAQ'
 import Android from './components/Android'
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route path='/about' component={About} />
+          <Route path='/faq' component={FAQ} />
           <Route path='/android' component={Android} />
           <Route path='/:id' component={Episode} />
           <Route path='/' component={Main} />

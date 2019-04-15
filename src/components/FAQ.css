@@ -1,0 +1,18 @@
+.faq {
+  width: 100%;
+}
+.faq .center {
+  margin: 0 auto;
+}
+.faq .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.faq .screen .intro {
+  color: #74705b;
+  font-size: 1.2rem;
+}
+.faq .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}

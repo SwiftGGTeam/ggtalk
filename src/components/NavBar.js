@@ -38,10 +38,10 @@ class NavBar extends Component {
                 <NavLink href="/">节目列表</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink target='_blank' href="https://swift.gg">Swift GG 网站</NavLink>
+                <NavLink target='_blank' href="https://swift.gg">SwiftGG 网站</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink target='_blank' href="https://www.weibo.com/swiftguide">Swift GG 微博</NavLink>
+                <NavLink target='_blank' href="https://www.weibo.com/swiftguide">SwiftGG 微博</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink target='_blank' href="https://github.com/SwiftGGTeam/ggtalk">GitHub</NavLink>
@@ -51,6 +51,9 @@ class NavBar extends Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/about">关于</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/faq">无法播放？</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
