@@ -29,6 +29,12 @@ class About extends Component {
             我们的网站：<a target='_blank' rel="noopener noreferrer" href='https://swift.gg'>https://swift.gg</a>，我们的微博<a target='_blank' rel="noopener noreferrer" href='https://www.weibo.com/swiftguide'>@SwiftGG翻译组</a>，我的微博<a target='_blank' rel="noopener noreferrer" href='https://www.weibo.com/numbbbbb'>@梁杰_numbbbbb</a>，我的邮箱：numbbbbb@swift.gg。
           </Col>
         </Row>
+        <Row className='desc'>
+          <Col className='center' xs={12} sm={10} md={8} lg={6}>
+            特别鸣谢：羊叔<a target='_blank' rel="noopener noreferrer" href='https://www.weibo.com/shanksyang'>@shanksyang</a>对本节目的大力支持！羊叔长期资助我们的 CDN 流量，一心付出不求回报。在这里祝羊叔早日 T4，心想事成！
+            <br /><br />
+          </Col>
+        </Row>
       </Container>
     );
   }
