@@ -20,15 +20,17 @@ class FAQ extends Component {
         <BtnBar />
         <Row className='desc'>
           <Col className='center' xs={12} sm={10} md={8} lg={6}>
-            最近一段时间陆陆续续有听众反馈无法播放，沟通了一下，目前来看唯一的共同点是大家都在广东。
+            最近一段时间陆陆续续有听众反馈无法播放。我们使用的是腾讯云的 CDN 服务，只针对国内有效，如果在海外，或者使用了代理，可能会不太稳定。
             <br /><br />
-            我们使用的是腾讯云的 CDN 服务，不是很清楚具体原因，可能是 CDN 在广东那边有什么问题，不能很好的提供服务。
+            如果无法播放，可以尝试：
+            <br />
+            &nbsp;&nbsp;• 关闭代理<br />
+            &nbsp;&nbsp;• 刷新网页<br />
+            &nbsp;&nbsp;• 刷新 RSS（苹果 podcast 可以在播客列表页下拉刷新）<br />
+            &nbsp;&nbsp;• 访问我们的<a target='_blank' rel="noopener noreferrer" href='https://talkcdn.swift.gg'>备用域名</a><br />
+            &nbsp;&nbsp;• 访问这个<a target='_blank' rel="noopener noreferrer" href='https://pan.baidu.com/s/1fT5zZp2lVE2DHtgdr1MtgQ'>百度盘</a>，我会上传所有音频文件
             <br /><br />
-            如果无法播放，请尝试使用我们的<a target='_blank' rel="noopener noreferrer" href='https://talkcdn.swift.gg'>备用域名</a>。
-            <br /><br />
-            如果备用域名也无法访问，请直接访问这个<a target='_blank' rel="noopener noreferrer" href='https://pan.baidu.com/s/1fT5zZp2lVE2DHtgdr1MtgQ'>百度盘</a>，我会上传所有音频文件。
-            <br /><br />
-            如果依然无法播放，请直接联系我：lj925184928@gmail.com，微博<a target='_blank' rel="noopener noreferrer" href='https://www.weibo.com/numbbbbb'>@梁杰_numbbbbb</a>。
+            如果还有问题，请直接联系我：lj925184928@gmail.com，微博<a target='_blank' rel="noopener noreferrer" href='https://www.weibo.com/numbbbbb'>@梁杰_numbbbbb</a>。
           </Col>
         </Row>
       </Container>
