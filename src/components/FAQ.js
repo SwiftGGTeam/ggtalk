@@ -27,6 +27,7 @@ class FAQ extends Component {
             &nbsp;&nbsp;• 关闭代理<br />
             &nbsp;&nbsp;• 刷新网页<br />
             &nbsp;&nbsp;• 刷新 RSS（苹果 podcast 可以在播客列表页下拉刷新）<br />
+            &nbsp;&nbsp;• 第三方应用可以尝试取消订阅后重新订阅，或者取消订阅后用 RSS 地址（https://talk.swift.gg/static/rss.xml）重新订阅<br />
             &nbsp;&nbsp;• 访问我们的<a target='_blank' rel="noopener noreferrer" href='https://talkcdn.swift.gg'>备用域名</a><br />
             &nbsp;&nbsp;• 访问这个<a target='_blank' rel="noopener noreferrer" href='https://pan.baidu.com/s/1fT5zZp2lVE2DHtgdr1MtgQ'>百度盘</a>，我会上传所有音频文件
             <br /><br />
