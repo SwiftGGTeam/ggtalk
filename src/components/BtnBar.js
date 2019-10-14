@@ -11,7 +11,7 @@ class BtnBar extends Component {
         <Col sm={12} md={{size:8, offset: 2}} lg={{size:6, offset: 3}}>
           <Row>
             <Col sm={3}>
-              <a target='_blank' rel="noopener noreferrer" href='https://talk.swift.gg/static/rss.xml'>
+              <a target='_blank' rel="noopener noreferrer" href='https://talkcdn.swift.gg/static/rss.xml'>
                 <Button outline color="secondary">RSS</Button>
               </a>
             </Col>

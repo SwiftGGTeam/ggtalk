@@ -14,7 +14,6 @@ class Android extends Component {
         <Row>
           <Col className='screen'>
             <div className='title'>安卓说明</div>  
-            <div className='intro'><del>建议尽快换 iPhone</del></div>
           </Col>
         </Row>
         <BtnBar />
@@ -35,7 +34,7 @@ class Android extends Component {
             &nbsp;· Audvel
             <br />
             <br />
-            一般来说，这类电台应用都可以通过 RSS 地址来订阅电台，我们的 RSS 地址是：<a target='_blank' rel="noopener noreferrer" href='https://talk.swift.gg/static/rss.xml'>https://talk.swift.gg/static/rss.xml</a>，你可以自行复制订阅。
+            一般来说，这类电台应用都可以通过 RSS 地址来订阅电台，我们的 RSS 地址是：<a target='_blank' rel="noopener noreferrer" href='https://talkcdn.swift.gg/static/rss.xml'>https://talkcdn.swift.gg/static/rss.xml</a>，你可以自行复制订阅。
             <br />
             <br />
             如果你不太清楚如何设置，或者不想使用第三方应用，也可以直接在我们的网页中播放。在节目列表中点击标题，打开的详情页里有播放按钮。
