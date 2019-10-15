@@ -19,7 +19,7 @@ class Episode extends Component {
     const xml = require('xml-js')
     var episodes = []
 
-    fetch('https://ggtalk-1256833134.cos-website.ap-beijing.myqcloud.com/static/rss.xml').then((data) => data.text()).then((text) => {
+    fetch('https://talkcdn.swift.gg/static/rss.xml').then((data) => data.text()).then((text) => {
       const rssContent = xml.xml2js(text, {compact: true})
       episodes = rssContent.rss.channel.item
       if (!Array.isArray(episodes)) episodes = [episodes]
