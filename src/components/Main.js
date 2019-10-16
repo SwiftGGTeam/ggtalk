@@ -4,13 +4,15 @@ import NavBar from './NavBar'
 import { Container, Row, Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import BtnBar from './BtnBar'
+import Loading from './Loading'
 
 class Main extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      episodes: []
+      episodes: [],
+      loading: true
     }
   }
 
@@ -22,7 +24,10 @@ class Main extends Component {
       const rssContent = xml.xml2js(text, {compact: true})
       episodes = rssContent.rss.channel.item
       if (!Array.isArray(episodes)) episodes = [episodes]
-      this.setState({episodes})
+      this.setState({
+        episodes,
+        loading: false
+      })
     })
   }
 
@@ -70,6 +75,7 @@ class Main extends Component {
             <div className='subtitle'>
               节目列表
             </div>
+            {this.state.loading && (<Loading />)}
             {this.state.episodes.map((episode, i) => {
               return (
                 <Row className='episode' key={i}>

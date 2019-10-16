@@ -1,0 +1,41 @@
+.loader {
+   display: block;
+   position: relative;
+   height: 2.5rem;
+   width: 2.5rem;
+   color: var(--link-color);
+   margin: 0 auto;
+   padding: var(--space-sm);
+}
+ .loader:before, .loader:after {
+   width: 2.5rem;
+   height: 2.5rem;
+   margin: -1.25rem 0 0 -1.25rem;
+   position: absolute;
+   content: "";
+   top: 50%;
+   left: 50%;
+}
+ .loader:before {
+   border-radius: 50%;
+   border: 3px solid currentColor;
+   opacity: 0.15;
+}
+ .loader:after {
+   animation: loader 0.8s linear;
+   animation-iteration-count: infinite;
+   border-radius: 50%;
+   border: 3px solid;
+   border-color: transparent;
+   border-top-color: currentColor;
+   box-shadow: 0 0 0 1px transparent;
+}
+ @keyframes loader {
+   from {
+     transform: rotate(0deg);
+  }
+   to {
+     transform: rotate(360deg);
+  }
+}
+ 

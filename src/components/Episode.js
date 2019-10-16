@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import { Container, Row, Col } from 'reactstrap'
 import MediaElement from './MediaElement'
 import BtnBar from './BtnBar'
+import Loading from './Loading'
 var Autolinker = require( 'autolinker' )
 
 class Episode extends Component {
@@ -11,7 +12,8 @@ class Episode extends Component {
     super(props)
 
     this.state = {
-      episodes: []
+      episodes: [],
+      loading: true
     }
   }
 
@@ -23,7 +25,10 @@ class Episode extends Component {
       const rssContent = xml.xml2js(text, {compact: true})
       episodes = rssContent.rss.channel.item
       if (!Array.isArray(episodes)) episodes = [episodes]
-      this.setState({episodes})
+      this.setState({
+        episodes,
+        loading: false
+      })
       document.title = 'ggtalk | ' + episodes[this.props.match.params.id].title._text
     })
   }
@@ -41,9 +46,18 @@ class Episode extends Component {
   }
 
   render() {
-    if (this.state.episodes.length === 0) {
-      return null
-    }
+    if (this.state.loading) return (
+      <div className='episode'>
+        <Container fluid>
+          <Row>
+            <NavBar />
+          </Row>
+          <Row>
+            <Loading />
+          </Row>
+        </Container>
+      </div>
+    )
 
     let i = this.props.match.params.id
     let episode = this.state.episodes[i]
