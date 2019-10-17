@@ -64,7 +64,7 @@ class Episode extends Component {
     let pubDate = episode.elements.find(item => item.name === "pubDate").elements[0].text
     let duration = episode.elements.find(item => item.name === "itunes:duration").elements[0].text
     let url = episode.elements.find(item => item.name === "guid").elements[0].text
-    let description = episode.elements.find(item => item.name === "description")
+    let description = decodeURIComponent(episode.elements.find(item => item.name === "itunes:summary").elements[0].text)
 
     return (
       <div className='episode'>
@@ -94,7 +94,7 @@ class Episode extends Component {
               <div className='subtitle'>
                 简介
               </div>
-              <div className='description' dangerouslySetInnerHTML={{ __html: Autolinker.link(xml.js2xml(description, {compact: false, ignoreComment: true, spaces: 4}))}} />
+              <div className='description' dangerouslySetInnerHTML={{ __html: Autolinker.link(description)}} />
             </Col>
           </Row>
         </Container>

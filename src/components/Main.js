@@ -85,7 +85,7 @@ class Main extends Component {
                       发布日期：{this.formatDate(episode.pubDate._text)}&nbsp;|&nbsp;长度：{episode['itunes:duration']._text}
                     </div>
                     <div className='description'>
-                      {episode['itunes:summary']._text ? episode['itunes:summary']._text.split('\n')[1] : episode['itunes:summary'].p[0]._text}
+                      {episode['itunes:summary']._text.match(/<p>(.*)<\/p>/)[1]}
                     </div>
                   </Col>
                 </Row>
