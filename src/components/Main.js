@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import BtnBar from './BtnBar'
 import Loading from './Loading'
+const xml = require('xml-js')
 
 class Main extends Component {
   constructor(props) {
@@ -17,7 +18,6 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    const xml = require('xml-js')
     var episodes = []
 
     fetch('https://talkcdn.swift.gg/static/rss.xml').then((data) => data.text()).then((text) => {
@@ -85,7 +85,7 @@ class Main extends Component {
                       发布日期：{this.formatDate(episode.pubDate._text)}&nbsp;|&nbsp;长度：{episode['itunes:duration']._text}
                     </div>
                     <div className='description'>
-                      {episode['itunes:summary']._text.split('\n')[1]}
+                      {episode['itunes:summary']._text ? episode['itunes:summary']._text.split('\n')[1] : episode['itunes:summary'].p[0]._text}
                     </div>
                   </Col>
                 </Row>

@@ -5,7 +5,8 @@ import { Container, Row, Col } from 'reactstrap'
 import MediaElement from './MediaElement'
 import BtnBar from './BtnBar'
 import Loading from './Loading'
-var Autolinker = require( 'autolinker' )
+var Autolinker = require('autolinker')
+const xml = require('xml-js')
 
 class Episode extends Component {
   constructor(props) {
@@ -18,18 +19,16 @@ class Episode extends Component {
   }
 
   componentDidMount () {
-    const xml = require('xml-js')
     var episodes = []
 
     fetch('https://talkcdn.swift.gg/static/rss.xml').then((data) => data.text()).then((text) => {
-      const rssContent = xml.xml2js(text, {compact: true})
-      episodes = rssContent.rss.channel.item
-      if (!Array.isArray(episodes)) episodes = [episodes]
+      const rssContent = xml.xml2js(text, {compact: false})
+      episodes = rssContent.elements[0].elements[0].elements.filter(item => item.name === "item")
       this.setState({
         episodes,
         loading: false
       })
-      document.title = 'ggtalk | ' + episodes[this.props.match.params.id].title._text
+      document.title = 'ggtalk | ' + episodes[this.props.match.params.id].elements.find(item => item.name === "title").elements[0].text
     })
   }
 
@@ -61,6 +60,11 @@ class Episode extends Component {
 
     let i = this.props.match.params.id
     let episode = this.state.episodes[i]
+    let title = episode.elements.find(item => item.name === "title").elements[0].text
+    let pubDate = episode.elements.find(item => item.name === "pubDate").elements[0].text
+    let duration = episode.elements.find(item => item.name === "itunes:duration").elements[0].text
+    let url = episode.elements.find(item => item.name === "guid").elements[0].text
+    let description = episode.elements.find(item => item.name === "description")
 
     return (
       <div className='episode'>
@@ -70,14 +74,14 @@ class Episode extends Component {
           </Row>
           <Row>
             <Col className='screen'>
-              <div className='title'>{episode.title._text}</div>  
-              <div className='intro'>第 {i} 期&nbsp;·&nbsp;{this.formatDate(episode.pubDate._text)}&nbsp;·&nbsp;{episode['itunes:duration']._text}</div>
+              <div className='title'>{title}</div>  
+              <div className='intro'>第 {i} 期&nbsp;·&nbsp;{this.formatDate(pubDate)}&nbsp;·&nbsp;{duration}</div>
             </Col>
           </Row>
           <Row className='audio'>
             <Col className='center' xs={12} sm={10} md={8} lg={6}>
               <MediaElement
-                source={episode.guid._text}
+                source={url}
                 id='audioplayer'
                 controls
                 width='100%'
@@ -90,7 +94,7 @@ class Episode extends Component {
               <div className='subtitle'>
                 简介
               </div>
-              <div className='description' dangerouslySetInnerHTML={{ __html: Autolinker.link(episode.description._text).replace(/\n/g, '<br />')}} />
+              <div className='description' dangerouslySetInnerHTML={{ __html: Autolinker.link(xml.js2xml(description, {compact: false, ignoreComment: true, spaces: 4}))}} />
             </Col>
           </Row>
         </Container>
