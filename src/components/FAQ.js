@@ -34,7 +34,7 @@ class FAQ extends Component {
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
 

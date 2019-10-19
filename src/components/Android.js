@@ -44,7 +44,7 @@ class Android extends Component {
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
 

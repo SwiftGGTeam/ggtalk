@@ -5,10 +5,18 @@
     width 100%
   a + a
     margin-left 10px
-  .faq-link
-    float left
+  .links
+    display flex
+    align-items center
     margin-top 10px
-    font-size 14px
+    .faq-link
+      display block
+      float left
+      font-size 14px
+    .separator
+      margin-left 5px
+      margin-right 10px
+      color gray
   @media (max-width: 600px)
     a button
       margin-bottom 0.5rem

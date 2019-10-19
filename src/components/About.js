@@ -36,7 +36,7 @@ class About extends Component {
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
 

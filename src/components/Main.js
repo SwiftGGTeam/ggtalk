@@ -94,7 +94,7 @@ class Main extends Component {
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
 

@@ -9,6 +9,7 @@ import Main from './components/Main'
 import Episode from './components/Episode'
 import About from './components/About'
 import FAQ from './components/FAQ'
+import Search from './components/Search'
 import Android from './components/Android'
 
 class App extends Component {
@@ -18,12 +19,13 @@ class App extends Component {
         <Switch>
           <Route path='/about' component={About} />
           <Route path='/faq' component={FAQ} />
+          <Route path='/search' component={Search} />
           <Route path='/android' component={Android} />
           <Route path='/:id' component={Episode} />
           <Route path='/' component={Main} />
         </Switch>
       </BrowserRouter>
-    );
+    )
   }
 }
 

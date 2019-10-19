@@ -1,0 +1,39 @@
+.search {
+  width: 100%;
+}
+.search .center {
+  margin: 0 auto;
+}
+.search .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.search .screen .intro {
+  color: #74705b;
+  font-size: 1.2rem;
+}
+.search .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}
+.search .desc a {
+  margin-bottom: 10px;
+}
+.search .desc a:hover {
+  text-decoration: none;
+}
+.search .desc .search-result-wrapper {
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: solid 1px #ccc;
+}
+.search .desc .search-result-wrapper > div {
+  line-height: 38px;
+  padding: 0;
+}
+.search .desc .search-result-wrapper .search-title {
+  font-weight: bold;
+}
+.search .desc .search-result-wrapper .time {
+  color: #888;
+}

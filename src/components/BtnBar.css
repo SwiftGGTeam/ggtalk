@@ -8,10 +8,20 @@
 .btns a + a {
   margin-left: 10px;
 }
-.btns .faq-link {
-  float: left;
+.btns .links {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
+}
+.btns .links .faq-link {
+  display: block;
+  float: left;
   font-size: 14px;
+}
+.btns .links .separator {
+  margin-left: 5px;
+  margin-right: 10px;
+  color: #808080;
 }
 @media (max-width: 600px) {
   .btns a button {

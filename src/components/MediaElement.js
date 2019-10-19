@@ -31,6 +31,16 @@ export default class MediaElement extends Component {
       defaultSpeed: "1.00",
       features: ["playpause", "current", "progress", "duration", "tracks", "speed"]
     })
+    let storedTime = localStorage.getItem(this.props.source)
+    if (this.props.startfrom) {
+      this.player.setCurrentTime(this.props.startfrom)
+    } else if (storedTime) {
+      this.player.setCurrentTime(storedTime)
+    }
+
+    this.tickId = setInterval(() => {
+      localStorage.setItem(this.props.source, this.player.getCurrentTime())
+    }, 1000)
   }
 
   componentWillUnmount() {
@@ -38,5 +48,6 @@ export default class MediaElement extends Component {
       this.player.remove()
       this.player = null
     }
+    if (this.tickId) clearInterval(this.tickId)
   }
 }
