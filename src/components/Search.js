@@ -126,13 +126,13 @@ class Search extends Component {
         <Row>
           <Col className='screen'>
             <div className='title'>搜索节目</div>  
-            <div className='intro'>手动添加标签，帮助你找到感兴趣的内容</div>
+            <div className='intro'>纯手工添加标签，帮你找到感兴趣的内容</div>
           </Col>
         </Row>
         <Row className='desc'>
           <Col className='center' xs={12} sm={10} md={8} lg={6}>
             <FormGroup>
-              <Input onChange={this.handleChange} type="text" name="keyword" id="keyword" placeholder="请输入你感兴趣的话题" />
+              <Input onChange={this.handleChange} type="text" name="keyword" id="keyword" placeholder="请输入你感兴趣的话题/嘉宾" />
             </FormGroup>
           </Col>
         </Row>
