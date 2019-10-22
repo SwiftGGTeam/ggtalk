@@ -84,9 +84,7 @@ class Main extends Component {
                     <div className='intro'>
                       发布日期：{this.formatDate(episode.pubDate._text)}&nbsp;|&nbsp;长度：{episode['itunes:duration']._text}
                     </div>
-                    <div className='description'>
-                      {episode['itunes:summary']._text.match(/<p>(.*)<\/p>/)[1]}
-                    </div>
+                    <div className='description' dangerouslySetInnerHTML={{ __html: episode['itunes:summary']._text.match(/<p>(.*)<\/p>/)[1]}} />
                   </Col>
                 </Row>
               )
