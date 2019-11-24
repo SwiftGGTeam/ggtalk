@@ -80,7 +80,7 @@ class Main extends Component {
               return (
                 <Row className='episode' key={i}>
                   <Col>
-                    <Link target='_blank' className='title' to={'/' + (i + 1)}>{(i + 1) + ". " + episode.title._text}</Link>
+                    <Link target='_blank' className='title' to={'/' + i}>{(i + 1) + ". " + episode.title._text}</Link>
                     <div className='intro'>
                       发布日期：{this.formatDate(episode.pubDate._text)}&nbsp;|&nbsp;长度：{episode['itunes:duration']._text}
                     </div>

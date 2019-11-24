@@ -39,7 +39,7 @@ class Episode extends Component {
         episodes,
         loading: false
       })
-      document.title = 'ggtalk | ' + episodes[parseInt(this.props.match.params.id) - 1].elements.find(item => item.name === "title").elements[0].text
+      document.title = 'ggtalk | ' + episodes[this.props.match.params.id].elements.find(item => item.name === "title").elements[0].text
     })
   }
 
@@ -69,7 +69,7 @@ class Episode extends Component {
         </Container>
       </div>
     )
-    let i = parseInt(this.props.match.params.id) - 1
+    let i = this.props.match.params.id
     let episode = this.state.episodes[i]
     let title = episode.elements.find(item => item.name === "title").elements[0].text
     let pubDate = episode.elements.find(item => item.name === "pubDate").elements[0].text
