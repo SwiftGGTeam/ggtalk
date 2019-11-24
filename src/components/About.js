@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './About.css';
+import React, { Component } from 'react'
+import './About.css'
 import { Container, Row, Col } from 'reactstrap'
 import NavBar from './NavBar'
 import BtnBar from './BtnBar'

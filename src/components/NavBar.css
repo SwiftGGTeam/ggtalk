@@ -1,3 +1,6 @@
 .nav-bar {
   width: 100%;
 }
+.nav-bar .guide-link {
+  color: #ff851b;
+}

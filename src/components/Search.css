@@ -13,7 +13,7 @@
   font-size: 1.2rem;
 }
 .search .desc {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   background-color: #f6f6f6;
 }
 .search .desc a {
@@ -36,4 +36,22 @@
 }
 .search .desc .search-result-wrapper .time {
   color: #888;
+}
+.search .linksWrapper {
+  padding: 0 1rem;
+  background-color: #f6f6f6;
+}
+.search .linksWrapper .links {
+  display: flex;
+  align-items: center;
+}
+.search .linksWrapper .links .faq-link {
+  display: block;
+  float: left;
+  font-size: 14px;
+}
+.search .linksWrapper .links .separator {
+  margin-left: 5px;
+  margin-right: 10px;
+  color: #808080;
 }

@@ -1,0 +1,21 @@
+.guide {
+  width: 100%;
+}
+.guide .title {
+  color: #ff851b;
+}
+.guide .center {
+  margin: 0 auto;
+}
+.guide .subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.guide .screen .intro {
+  color: #74705b;
+  font-size: 1.2rem;
+}
+.guide .desc {
+  padding: 1rem;
+  background-color: #f6f6f6;
+}

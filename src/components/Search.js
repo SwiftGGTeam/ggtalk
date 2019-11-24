@@ -1,18 +1,40 @@
-import React, { Component } from 'react';
-import './Search.css';
+import React, { Component } from 'react'
+import './Search.css'
 import { Container, Row, Col, FormGroup, Input, Button } from 'reactstrap'
 import NavBar from './NavBar'
 import Loading from './Loading'
 import Fuse from "fuse.js"
+import { getParameterByName } from "./Episode"
+import { copyToClipboard } from "./BtnBar"
 var AV = require('leancloud-storage')
+
+function insertParam(key, value)
+{
+    key = encodeURI(key); value = encodeURI(value);
+
+    var kvp = document.location.search.substr(1).split('&');
+
+    var i=kvp.length; var x; while(i--) 
+    {
+        x = kvp[i].split('=');
+
+        if (x[0]==key)
+        {
+            x[1] = value;
+            kvp[i] = x.join('=');
+            break;
+        }
+    }
+
+    if(i<0) {kvp[kvp.length] = [key,value].join('=');}
+
+    //this will reload the page, it's likely better to store this until finished
+    document.location.search = kvp.join('&'); 
+}
 
 class Search extends Component {
   constructor(props) {
     super(props)
-
-    let data = [
-      
-    ]
 
     this.state = {
       keyword: "",
@@ -22,6 +44,7 @@ class Search extends Component {
       loading: true
     }
     this.handleChange = this.handleChange.bind(this)
+    this.share = this.share.bind(this)
 
     AV.init({
       appId: "Ab21p9Df2hlkXxzSiwHuUSr5",
@@ -40,6 +63,13 @@ class Search extends Component {
           keys: ["title", "tags"],
           threshold: 0.3,
         })
+        if (getParameterByName("q")) {
+          this.setState({
+            keyword: getParameterByName("q"),
+            results: this.fuse.search(getParameterByName("q")),
+            displayEmptyMsg: false
+          })
+        }
       })
   }
 
@@ -58,7 +88,7 @@ class Search extends Component {
       result.push({
         episode: item.episode,
         title: item.title,
-        tags: item.tags
+        tags: item.tags.concat([item.episode + 1 + ""])
       })
       if (item.times) {
         for (let subitem of item.times) {
@@ -67,7 +97,7 @@ class Search extends Component {
             title: item.title,
             subtitle: subitem.subtitle,
             time: subitem.time,
-            tags: subitem.tags
+            tags: subitem.tags.concat([item.episode + 1 + ""])
           })
         }
       }
@@ -95,6 +125,11 @@ class Search extends Component {
         keyword.save()
       }
     }, 1500)
+  }
+
+  share(e) {
+    e.preventDefault()
+    copyToClipboard(window.location.origin + window.location.pathname + "?q=" + this.state.keyword) && alert("此搜索页链接已复制！")
   }
 
   render() {
@@ -129,11 +164,20 @@ class Search extends Component {
             <div className='intro'>纯手工添加标签，帮你找到感兴趣的内容</div>
           </Col>
         </Row>
-        <Row className='desc'>
+        <Row className='desc first'>
           <Col className='center' xs={12} sm={10} md={8} lg={6}>
             <FormGroup>
-              <Input onChange={this.handleChange} type="text" name="keyword" id="keyword" placeholder="请输入你感兴趣的话题/嘉宾" />
+              <Input value={this.state.keyword} onChange={this.handleChange} type="text" name="keyword" id="keyword" placeholder="请输入你感兴趣的话题/嘉宾/单集序号" />
             </FormGroup>
+          </Col>
+        </Row>
+        <Row className='linksWrapper'>
+          <Col className='center' xs={12} sm={10} md={8} lg={6}>
+            <div className="links">
+              <a key="btn" className='faq-link' href="/" onClick={this.share}>
+                分享此搜索页
+              </a>
+            </div>
           </Col>
         </Row>
         <Row className='desc'>

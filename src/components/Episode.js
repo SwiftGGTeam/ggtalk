@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './Episode.css';
+import React, { Component } from 'react'
+import './Episode.css'
 import NavBar from './NavBar'
 import { Container, Row, Col } from 'reactstrap'
 import MediaElement from './MediaElement'
@@ -8,7 +8,7 @@ import Loading from './Loading'
 var Autolinker = require('autolinker')
 const xml = require('xml-js')
 
-function getParameterByName (name, url) {
+export const getParameterByName = function (name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, '\\$&');
     var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -39,7 +39,7 @@ class Episode extends Component {
         episodes,
         loading: false
       })
-      document.title = 'ggtalk | ' + episodes[this.props.match.params.id].elements.find(item => item.name === "title").elements[0].text
+      document.title = 'ggtalk | ' + episodes[parseInt(this.props.match.params.id) - 1].elements.find(item => item.name === "title").elements[0].text
     })
   }
 
@@ -69,7 +69,7 @@ class Episode extends Component {
         </Container>
       </div>
     )
-    let i = this.props.match.params.id
+    let i = parseInt(this.props.match.params.id) - 1
     let episode = this.state.episodes[i]
     let title = episode.elements.find(item => item.name === "title").elements[0].text
     let pubDate = episode.elements.find(item => item.name === "pubDate").elements[0].text
@@ -86,7 +86,7 @@ class Episode extends Component {
           <Row>
             <Col className='screen'>
               <div className='title'>{title}</div>  
-              <div className='intro'>第 {i} 期&nbsp;·&nbsp;{this.formatDate(pubDate)}&nbsp;·&nbsp;{duration}</div>
+              <div className='intro'>第 {i + 1} 期&nbsp;·&nbsp;{this.formatDate(pubDate)}&nbsp;·&nbsp;{duration}</div>
             </Col>
           </Row>
           <Row className='audio'>

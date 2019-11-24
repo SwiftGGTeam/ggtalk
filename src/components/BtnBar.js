@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
 Row, Col, Button
-} from 'reactstrap';
+} from 'reactstrap'
 import './BtnBar.css'
 
-function copyToClipboard(text) {
+export const copyToClipboard = function (text) {
   if (window.clipboardData && window.clipboardData.setData) {
     // IE specific code path to prevent textarea being shown while dialog is visible.
     return window.clipboardData.setData("Text", text); 
@@ -74,6 +74,10 @@ class BtnBar extends Component {
                   复制当前时间点链接
                 </a>
               ]}
+              <div className="separator">|</div>
+              <a className='faq-link guide-link' target='_blank' rel="noopener noreferrer" href='/guide'>
+                新听众指南
+              </a>
             </Col>
           </Row>
         </Col>

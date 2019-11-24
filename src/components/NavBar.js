@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './NavBar.css';
+import React, { Component } from 'react'
+import './NavBar.css'
 import {
   Collapse,
   Navbar,
@@ -35,6 +35,9 @@ class NavBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
+                <NavLink href="/guide"><span className="guide-link">新听众指南</span></NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/">节目列表</NavLink>
               </NavItem>
               <NavItem>
@@ -47,13 +50,7 @@ class NavBar extends Component {
                 <NavLink href="/faq">无法播放？</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink target='_blank' href="https://swift.gg">SwiftGG 网站</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink target='_blank' href="https://www.weibo.com/swiftguide">SwiftGG 微博</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink target='_blank' href="https://github.com/SwiftGGTeam/ggtalk">GitHub</NavLink>
+                <NavLink target='_blank' href="https://www.weibo.com/swiftguide">SwiftGG</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/about">关于</NavLink>
