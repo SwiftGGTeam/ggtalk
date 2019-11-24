@@ -87,14 +87,14 @@ class Search extends Component {
     for (let item of data) {
       result.push({
         episode: item.episode,
-        title: item.title,
+        title: (parseInt(item.episode) + 1) + '. ' + item.title,
         tags: item.tags.concat([item.episode + 1 + ""])
       })
       if (item.times) {
         for (let subitem of item.times) {
           result.push({
             episode: item.episode,
-            title: item.title,
+            title: (parseInt(item.episode) + 1) + '. ' + item.title,
             subtitle: subitem.subtitle,
             time: subitem.time,
             tags: subitem.tags.concat([item.episode + 1 + ""])

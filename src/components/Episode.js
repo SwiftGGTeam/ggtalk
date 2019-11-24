@@ -86,7 +86,7 @@ class Episode extends Component {
           <Row>
             <Col className='screen'>
               <div className='title'>{title}</div>  
-              <div className='intro'>第 {i + 1} 期&nbsp;·&nbsp;{this.formatDate(pubDate)}&nbsp;·&nbsp;{duration}</div>
+              <div className='intro'>第 {parseInt(i) + 1} 期&nbsp;·&nbsp;{this.formatDate(pubDate)}&nbsp;·&nbsp;{duration}</div>
             </Col>
           </Row>
           <Row className='audio'>
